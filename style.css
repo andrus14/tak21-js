@@ -1,0 +1,24 @@
+#container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+}
+
+#input {
+    height: 32px;
+    font-size: 32px;
+    grid-column: 1 / span 2;
+}
+
+#result {
+    grid-column: 3 ;
+    grid-row: 1;
+    width: 64px;
+    font-size: 32px;
+}
+
+div button {
+    font-size: 32px;
+    height: 64px;
+    width: 64px;
+}
